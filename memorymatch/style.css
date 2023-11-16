@@ -1,0 +1,11 @@
+#grid {
+  display: grid;
+  max-width: 300px;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+img {
+  max-width: 100%; /* Ensures images don't exceed the width of their container */
+  height: auto; /* Maintains the aspect ratio of the images */
+}
